@@ -11,13 +11,13 @@ python setup.py install
 Or you can install from Github via pip:
 
 ```sh
-pip install git+https://github.com/geekerzp/swagger_client.git
+pip install git+https://github.com/auxodev/tpaga-python.git
 ```
 
 To use the bindings, import the pacakge:
 
 ```python
-import swagger_client
+import tpaga
 ```
 
 ## Manual Installation
@@ -25,7 +25,7 @@ If you do not wish to use setuptools, you can download the latest release.
 Then, to use the bindings, import the package:
 
 ```python
-import path.to.swagger_client
+import path.to.tpaga
 ```
 
 ## Getting Started
