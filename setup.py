@@ -23,7 +23,7 @@ setup(
     description="TPaga API",
     author_email="sortiz@tpaga.co",
     url="https://tpaga.co/support",
-    keywords=["Swagger", "TPaga API"],
+    keywords=["TPaga API"],
     install_requires=REQUIRES,
     packages=find_packages(),
     include_package_data=True,
