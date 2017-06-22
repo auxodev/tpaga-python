@@ -242,7 +242,7 @@ class CreditCardApi(object):
             params[key] = val
         del params['kwargs']
 
-        resource_path = '/customer/{customer_id}/credit_card'.replace('{format}', 'json')
+        resource_path = '/customer/{customer_id}/credit_card_token'.replace('{format}', 'json')
         method = 'POST'
 
         path_params = {}
